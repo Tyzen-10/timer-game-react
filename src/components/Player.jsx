@@ -7,7 +7,7 @@ export default function Player() {
   const handleClick = () => {
     setEnteredPlayerName(playerName.current.value)
   }
-  //just trial
+  //just trial - to set name back to null as soon as we try to change name.
   const handleChange = () =>{
     setEnteredPlayerName(null)
   }
